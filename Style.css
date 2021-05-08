@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: linear-gradient(to bottom,#009688,#00bfa5 20%,#00bfa5 20%,#00bfa5);
+    height: 25vh;
+    
+}
+body{
+    background-color: #d5d8d3;
+    font-family: sans-serif;
+    
+}
+
+main{
+    height: 100vh;
+    background-color: #f8f9fa;;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -5.5rem;
+    box-shadow: 0 4px 2px 5px rgb(0,0,0,0.45);
+    /* divinding our main  i.e white section into two cloums*/
+    display: grid;
+    grid-template-columns: 33% 1fr;/*it means left coloum will take 33%space and 1fr means rest space will be taken by right coloum*/
+    
+     
+}
+section{
+    border: 1px solid #8884;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;/* it will create space between mydp and status,dotted line*/
+    align-items: center;
+    background-color: #8883;
+}
+.padding{
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    padding-top: 0.5rem;
+}
+nav img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+    margin-bottom: 10px;
+}
+menu button{
+    border: 0;
+    font-size: 1.5rem; /*1.5 to increse the image size*/
+    background: transparent;
+    margin-left: 1.4rem;
+    margin-bottom: 10px;
+}
+.search{
+    background-color: #f6f6f6;
+}
+
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 999px;
+
+}
+input{
+    width: 100%;
+    border: none;
+    margin-left: 1rem;
+    padding: 10px;
+}
+menu button{
+    font-size: 2rem;
+    
+    
+}
+
+ul{
+    list-style: none;
+    margin-top: 0.8rem;
+}
+
+ul li{
+    display: grid;
+    grid-template-columns: 50px 1fr; /*50px will be taken by first coloum i.e img and rest i,e 1fr will be takenby rest part*/
+    border-color: white;
+    border-top: 1px solid #eee;
+    padding: 0.4rem;
+    
+}
+li img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+    margin-top: 0.3rem;
+    
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.6rem;
+    
+}
+
+.name span{
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+}
+.name time{
+    color: #666;
+    font-size: 0.8rem;
+}
+.preview{
+    color:#666;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+
+    }
+
+.chat-section img{
+    width: 50%;
+    margin-top: 8rem;
+    margin-left: 13rem;
+    
+}
+h2,p{
+    text-align: center;
+}
+h2{
+    font-size: 2.5rem;
+    color: grey;
+    margin-bottom: 1.9rem;
+}
+p{
+    color: #666;
+}
